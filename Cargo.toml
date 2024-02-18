@@ -14,3 +14,4 @@ name = "zero2prod"
 [dependencies]
 actix-web = "4"
 reqwest = "0.11.24"
+serde = { version = "1", features = ["derive"]}
